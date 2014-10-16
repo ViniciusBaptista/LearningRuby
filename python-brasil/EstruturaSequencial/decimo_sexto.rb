@@ -7,5 +7,3 @@ def loja(metros)
 
   "Você usará: #{latas_necessarias} lata(s) \n Total a pagar: R$#{valor_final}"
 end
-
-puts loja(100)

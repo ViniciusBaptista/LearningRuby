@@ -11,5 +11,3 @@ def loja(metros)
   "Latas necessarias: #{qts_latas} \n Valor total em latas: R$#{qts_latas * 80}
   \n Galões necessarios: #{qts_galoes} \n Valor total em galões: R$ #{qts_galoes * 25}"
 end
-
-puts loja(80)
