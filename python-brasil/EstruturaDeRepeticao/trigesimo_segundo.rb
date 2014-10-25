@@ -1,11 +1,5 @@
 def fatorial(numero)
-  i = 1
-  print (1..numero).reduce(:*)
-
-  until i > numero
-    puts "#{i}."
-    i += 1
-  end 
+  (2..numero).inject(:*)  
 end
 
 fatorial(5)
